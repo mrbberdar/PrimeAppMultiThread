@@ -111,7 +111,7 @@ namespace PrimeAPPMultiThread
 
             
             readData(data);
-            stopwatch.Stop(); //finishing stopwatch to measure time
+            stopwatch.Stop(); //finishing stopwatch to measure time (About 40 seconds faster than single thread)
 
 
             Console.WriteLine("\n\nTime Elapsed: " + stopwatch.Elapsed);
